@@ -1,5 +1,0 @@
-x = input("Enter 16 digit credit card number ")
-print(int(x[12]))
-print(int(x[13]))
-print(int(x[14]))
-print(int(x[15]))
