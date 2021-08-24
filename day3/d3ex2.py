@@ -1,6 +1,7 @@
-a = int(input("a= "))
-b = int(input("b = "))
-if a > 20 and b > 30:
-    print(True)
+x = int(input("Enter number "))
+if x < 20:
+    print("Number is less than 20")
+elif x > 20:
+    print("Number is greater than 20")
 else:
-    print(False)
+    print("Number is equal to 20")
