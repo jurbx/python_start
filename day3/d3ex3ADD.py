@@ -1,7 +1,7 @@
-x = int(input("Enter first side of triangle "))
-y = int(input("Enter second side of triangle "))
-z = int(input("Enter third side of triangle "))
-if (x + y) > z and (x + z) > y and (z + y) > x:
+a = int(input("Enter first side of triangle "))
+b = int(input("Enter second side of triangle "))
+c = int(input("Enter third side of triangle "))
+if (a + b) > c and (a + c) > b and (c + b) > a:
     print("Triangle can exist")
 else:
     print("Triangle cannot exist")

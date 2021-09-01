@@ -1,8 +1,6 @@
 x = int(input("Day= "))
-y = x % 400
-z = x % 100
-k = x % 100
-if y == 0 and z != 0 and y == 0:
+
+if x % 4 == 0 or x % 400 == 0 and x % 100 != 0:
     print("Year is leap")
 else:
     print("Year is not leap")

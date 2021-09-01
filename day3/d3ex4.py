@@ -1,6 +1,5 @@
 x = int(input("Enter number "))
-x %= 2
-if x == 0:
+if x % 2:
     print("Number id Even")
 else:
     print("Number is Odd")
