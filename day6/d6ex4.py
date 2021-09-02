@@ -1,6 +1,4 @@
 import math
-f = 2
-for i in range(1, 11):
+for i in range(2, 13):
     print("P is {:."f"{f}""f}".format(math.pi))
-    f += 1
 
