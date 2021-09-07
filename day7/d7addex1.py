@@ -32,7 +32,7 @@ if 10000 in n:
           n.insert(n.index(10000), n1)
           n.insert(n.index(10000), n2)
      n.remove(10000)
-if n < 20:
+if sum(n) < 20:
      n1 = sum(n)
      n.clear()
      n.append(n1)
