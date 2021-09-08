@@ -1,4 +1,4 @@
-romennumber = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}  # Программа работает до 399
+romennumber = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}  # Программа работает до 388
 
 inputnumbers = input('Num= ')
 
@@ -21,6 +21,9 @@ for item in check:
 
     while numbers.count(item) > 3:
         numbers.remove(item)     # Удаляет лишние item, если в списке других цифр нету (макс 3)
+
+    while 'V' in numbers and numbers.count('V') > 1:
+        numbers.remove('V')     # Удаляет лишние V (1 макс)
 
 print(*numbers)     # Выводит все римские цифры, которые будут расшифрованы
 
