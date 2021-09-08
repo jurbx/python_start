@@ -34,7 +34,7 @@ for item in numbers:
             case -= 2   # Если перед item1['V', 'X'] стоит I, вычитает из item1 единицу
     for item2 in check2:
         if numbers.index(item) != len(numbers)-1 and item == 'X' and numbers[numbers.index(item)+1] == item2:
-            case -= 20  # Если перед item2['C', 'L'] стоит X, вычитает из item1 10
+            case -= 20  # Если перед item2['C', 'L'] стоит X, вычитает из item2 10
 
         else:
             continue
