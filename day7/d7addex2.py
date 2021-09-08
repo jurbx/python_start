@@ -1,4 +1,4 @@
-romennumber = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}
+romennumber = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}  # Программа работает до 399
 
 inputnumbers = input('Num= ')
 
