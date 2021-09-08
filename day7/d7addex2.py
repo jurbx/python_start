@@ -23,7 +23,7 @@ for item in check:
         numbers.remove(item)     # Удаляет лишние item, если в списке других цифр нету (макс 3)
 
     while 'V' in numbers and numbers.count('V') > 1:
-        numbers.remove('V')     # Удаляет лишние V (1 макс)
+        numbers.remove('V')     # Удаляет лишние V (макс 1)
 
 print(*numbers)     # Выводит все римские цифры, которые будут расшифрованы
 
