@@ -17,7 +17,7 @@ while 'V' in numbers and numbers.index('V') > 1 and numbers[numbers.index('V')-1
 while 'V' in numbers and numbers.index('V') <= len(numbers)-5 and numbers[numbers.index('V')+1] == numbers[numbers.index('V')+4] == 'I':
     numbers.pop(numbers.index('V')+1)   # Удаляет лишние I которые стоят после V (максимум 3), если V есть в строке
 
-print(*numbers)     # Выводит все римские цифры, которые будут считаться
+print(*numbers)     # Выводит все римские цифры, которые будут расшифрованы
 
 for item in numbers:
     case += romennumber[item]
